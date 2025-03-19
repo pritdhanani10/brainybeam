@@ -1,0 +1,24 @@
+name: flutter_examples
+description: A collection of Flutter examples.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^4.2.2
+  video_player: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test: ^1.25.15
+
+flutter:
+  uses-material-design: true
+
